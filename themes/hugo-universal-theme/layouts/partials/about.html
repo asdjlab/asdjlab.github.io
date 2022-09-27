@@ -1,0 +1,105 @@
+<div class="container">
+
+  <div class="row">
+
+      <div class="col-md-12">
+
+          <div>
+            {{ .Content }}
+          </div>
+
+      </div>
+
+  </div>
+  <!-- /.row -->
+
+</div>
+
+{{ if isset .Site.Params "features" }}
+{{ if .Site.Params.features.enable }}
+{{ if gt (len .Site.Data.features) 0 }}
+<section class="bar background-white">
+    <div class="container">
+        {{ $elements := default 3 .Site.Params.features.cols }}
+        {{ $features := sort .Site.Data.features "weight" }}
+
+        {{ $total_rows := div (len $features) $elements }}
+
+        {{ if gt (mod (len $features) $elements) 0 }}
+          {{ $total_rows = add $total_rows 1 }}
+        {{ end }}
+
+        {{ range $i, $sequence := seq $total_rows }}
+          <div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
+            {{ range $j, $sequence2 := (seq $elements) }}
+
+                {{ $feature_index := add (mul $i $elements) $j }}
+                {{ if lt $feature_index (len $features) }}
+                    {{ $element := index $features $feature_index }}
+
+                    <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+                        <div class="box-simple">
+                            {{ with $element.url }}
+                            <a href="{{ $element.url }}">
+                            {{ end }}
+                                <div class="icon">
+                                    <i class="{{ $element.icon }}"></i>
+                                </div>
+                            {{ with $element.url }}
+                            </a>
+                            {{ end }}
+                            <h3>{{ $element.name | markdownify }}</h3>
+                            <p>{{ $element.description | markdownify }}</p>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+
+
+{{ if isset .Site.Params "clients" }}
+{{ if .Site.Params.clients.enable }}
+{{ if gt (len .Site.Data.clients) 0 }}
+<section class="bar background-gray no-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.clients.title | markdownify }}</h2>
+                </div>
+
+                <p class="lead">
+                  {{ .Site.Params.clients.subtitle | markdownify }}
+                </p>
+
+                <ul class="owl-carousel customers"
+                    data-items="{{ default 6 .Site.Params.CarouselCustomers.items }}"
+                    data-autoplay="{{ default false .Site.Params.CarouselCustomers.auto_play }}"
+                    data-slide-speed="{{ default 2000 .Site.Params.CarouselCustomers.slide_speed }}"
+                    data-pagination-speed="{{ default 1000 .Site.Params.CarouselCustomers.pagination_speed }}">
+                    {{ range .Site.Data.clients }}
+                    <li class="item" title="{{ .name }}">
+                        {{ if .url }}
+                          <a href="{{ .url }}" target="_blank">
+                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          </a>
+                        {{ else }}
+                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                </ul>
+                <!-- /.owl-carousel -->
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
