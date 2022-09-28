@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 混科學實驗室</title>
-    <link>https://devcows.github.io/tags/</link>
+    <link>https://deft-fairy-aa3915.netlify.app/tags/</link>
     <description>Recent content in Tags on 混科學實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://devcows.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://deft-fairy-aa3915.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>golang</title>
-      <link>https://devcows.github.io/tags/golang/</link>
+      <link>https://deft-fairy-aa3915.netlify.app/tags/golang/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://devcows.github.io/tags/golang/</guid>
+      <guid>https://deft-fairy-aa3915.netlify.app/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://devcows.github.io/tags/hugo/</link>
+      <link>https://deft-fairy-aa3915.netlify.app/tags/hugo/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://devcows.github.io/tags/hugo/</guid>
+      <guid>https://deft-fairy-aa3915.netlify.app/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>https://devcows.github.io/tags/programming/</link>
+      <link>https://deft-fairy-aa3915.netlify.app/tags/programming/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://devcows.github.io/tags/programming/</guid>
+      <guid>https://deft-fairy-aa3915.netlify.app/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>theme</title>
-      <link>https://devcows.github.io/tags/theme/</link>
+      <link>https://deft-fairy-aa3915.netlify.app/tags/theme/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://devcows.github.io/tags/theme/</guid>
+      <guid>https://deft-fairy-aa3915.netlify.app/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://devcows.github.io/tags/go/</link>
+      <link>https://deft-fairy-aa3915.netlify.app/tags/go/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>https://devcows.github.io/tags/go/</guid>
+      <guid>https://deft-fairy-aa3915.netlify.app/tags/go/</guid>
       <description></description>
     </item>
     
