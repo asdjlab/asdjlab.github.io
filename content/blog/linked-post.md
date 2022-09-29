@@ -1,19 +1,38 @@
 +++
-title = "Linked post"
-date = "2015-10-02T21:49:20+02:00"
-tags = ["golang", "programming", "theme", "hugo"]
-categories = ["programming"]
+authors = ["J小編"]
 banner = "img/banners/banner-4.jpg"
-authors = ["John Doe","Jane Doe"]
+categories = []
+date = 2021-05-28T19:49:20Z
+tags = ["生物", "味道", "化學", "人"]
+title = "COVID-19 的味道！？"
+
 +++
+### 前言
 
-I'm a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+首先混科學要澄清一下，CIVOD-19 這個病毒當然沒有味道！病毒本身是種看不見、聞不到的隱形殺手，因此今天要談的不是CIVOD-19 病毒本身的味道，而是它造成的「嗅覺失調」。
 
-    menu = "main"
+### COVID-19特別之處
 
+截至目前，全世界已經有超過一億人感染新冠肺炎，感染者除了會出現類似流感的症狀（如發燒、咳嗽、肌肉痠痛、呼吸困難等等），還極有可能出現嗅覺與味覺喪失的狀況。你以為這是CIVOD-19 病毒的專利嗎？其實不然，這項病徵並不僅限於新冠肺炎的患者，許多病毒引起的疾病都會造成這樣的狀況。不過神奇的是，新冠肺炎引起的嗅覺失調，通常在病人康復後數周就會恢復，但是由其他病毒所引起的嗅覺失調，則大多需要數個月才有辦法恢復。這意味著一件事情：**這個病毒造成嗅覺失調的機制跟大家以為地可能不同！**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.
+### 機制探討
 
-Morbi varius ex vel justo dictum placerat. Sed ac arcu pretium, varius elit eget, gravida purus. Fusce sit amet massa mollis eros tincidunt sollicitudin. Suspendisse iaculis cursus mauris ut sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas elit ligula, molestie quis magna eu, semper posuere lorem. Mauris a justo pharetra, congue ex eget, tincidunt massa. Maecenas sit amet neque lorem.
+為了知道CIVOD-19 病毒造成嗅覺失調的機制，一個由哈佛醫學院主導、聯合美國其他學校的研究團隊，對這個病毒進行了一番研究。一般認為導致嗅覺失調的機制，是病毒藉由入侵人類的嗅覺神經元 (Olfactory Sensory Neurons, OSNs)，直接破壞神經而讓人無法聞到氣味。然而新冠肺炎病毒似乎喜歡非傳統路線，研究團隊發現新冠肺炎病毒若要進入細胞搞破壞，必須藉由辨識細胞膜上的特殊蛋白質「ACE2」與「TMPRSS2」才能進入。不過令研究團隊感到意外的是，人類的 OSNs 的細胞膜上並沒有這兩種蛋白質，反而在嗅覺上皮組織中的支持細胞 (Sustentacular Cell) 與基底細胞 (Basal Cell) 才發現這兩種特殊蛋白。經過研究團隊更進一步地進行小鼠實驗後，發現所有嗅球 (感受嗅覺的地方) 中的神經細胞都沒有 ACE2 與 TMPRSS2。聰明的你想到為什麼得新冠肺炎的患者康復後並不會永久喪失嗅覺，且較快就可以恢復嗅覺了嗎？
 
-Curabitur at elementum quam. Curabitur tristique elit non sapien aliquam vulputate. Vivamus in odio tincidunt, tempor sem quis, tincidunt lacus. Mauris pulvinar nunc sed tempus dictum. Nam vel arcu quis mi fermentum ullamcorper non ac lacus. Donec aliquet vitae ante at imperdiet. Aenean scelerisque venenatis urna, eget elementum risus convallis ac. Nullam gravida arcu lacus, non consectetur augue pretium non. Duis dignissim eros id urna pretium congue. Nullam eu magna in sem sollicitudin tempor. Pellentesque vel convallis ligula. Quisque semper, turpis a rhoncus efficitur, magna nibh iaculis elit, eget tempor dolor eros ut mi. Maecenas eu placerat lacus. Praesent congue pretium nulla, sed suscipit metus rutrum vel.
+### 小結
+
+根據研究結果，團隊得到一個結論：新冠肺炎的病毒造成嗅覺失調的原因，並不是「直接破壞」嗅球中的嗅覺神經，而是透過**入侵嗅覺輔助細胞來「間接影響」我們的嗅覺**，這也是為什麼得新冠肺炎的感染者並不會永久喪失嗅覺，因為神經其實沒有死掉！
+
+一個小小病毒所引起的嗅覺喪失，其實也有很多學問在裡面呢！不過希望大家還是不要經歷這些比較好，呼籲大家還是要把口罩戴緊，平常少出門、勤洗手，保護自己與他人，一起度過這個疫情難關吧！
+
+### 參考資料
+
+1\. How COVID-19 Causes Loss of Smell. [https://hms.harvard.edu/news/how-covid-19-causes-loss-smell](https://hms.harvard.edu/news/how-covid-19-causes-loss-smell "https://hms.harvard.edu/news/how-covid-19-causes-loss-smell").
+
+2\. Brann, D. H. _et al._ Non-neuronal expression of SARS-CoV-2 entry genes in the olfactory system suggests mechanisms underlying COVID-19-associated anosmia. _Sci Adv_ **6**, eabc5801 (2020).
+
+### 備註
+
+ACE2：血管收縮素轉化酶2 (Angiotensin-converting enzyme 2)
+
+TMRSS2：跨膜絲胺酸蛋白酶2 (Transmembrane protease, serine 2)
