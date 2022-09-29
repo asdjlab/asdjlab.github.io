@@ -1,6 +1,6 @@
 +++
 authors = ["J小編"]
-banner = "img/banners/banner-4.jpg"
+banner = "img/covid-19-flavor.jpeg"
 categories = []
 date = 2021-05-28T19:49:20Z
 tags = ["生物", "味道", "化學", "人"]
