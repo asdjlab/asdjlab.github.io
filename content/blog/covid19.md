@@ -1,0 +1,39 @@
++++
+title = "COVID-19 的味道！？"
+slug = "Schrodinger_cat"
+date = 2021-05-28T19:49:20Z
+categories = ["科學小學堂"]
+tags = ["生物", "味道", "化學", "人"]
+banner = "img/blog/COVID-19-flavor.jpeg"
+authors = ["J小編"]
++++
+
+### 前言
+
+首先混科學要澄清一下，CIVOD-19 這個病毒當然沒有味道！病毒本身是種看不見、聞不到的隱形殺手，因此今天要談的不是CIVOD-19 病毒本身的味道，而是它造成的「嗅覺失調」。
+
+### COVID-19特別之處
+
+截至目前，全世界已經有超過一億人感染新冠肺炎，感染者除了會出現類似流感的症狀（如發燒、咳嗽、肌肉痠痛、呼吸困難等等），還極有可能出現嗅覺與味覺喪失的狀況。你以為這是CIVOD-19 病毒的專利嗎？其實不然，這項病徵並不僅限於新冠肺炎的患者，許多病毒引起的疾病都會造成這樣的狀況。不過神奇的是，新冠肺炎引起的嗅覺失調，通常在病人康復後數周就會恢復，但是由其他病毒所引起的嗅覺失調，則大多需要數個月才有辦法恢復。這意味著一件事情：**這個病毒造成嗅覺失調的機制跟大家以為地可能不同！**
+
+### 機制探討
+
+為了知道CIVOD-19 病毒造成嗅覺失調的機制，一個由哈佛醫學院主導、聯合美國其他學校的研究團隊，對這個病毒進行了一番研究。一般認為導致嗅覺失調的機制，是病毒藉由入侵人類的嗅覺神經元 (Olfactory Sensory Neurons, OSNs)，直接破壞神經而讓人無法聞到氣味。然而新冠肺炎病毒似乎喜歡非傳統路線，研究團隊發現新冠肺炎病毒若要進入細胞搞破壞，必須藉由辨識細胞膜上的特殊蛋白質「ACE2」與「TMPRSS2」才能進入。不過令研究團隊感到意外的是，人類的 OSNs 的細胞膜上並沒有這兩種蛋白質，反而在嗅覺上皮組織中的支持細胞 (Sustentacular Cell) 與基底細胞 (Basal Cell) 才發現這兩種特殊蛋白。經過研究團隊更進一步地進行小鼠實驗後，發現所有嗅球 (感受嗅覺的地方) 中的神經細胞都沒有 ACE2 與 TMPRSS2。聰明的你想到為什麼得新冠肺炎的患者康復後並不會永久喪失嗅覺，且較快就可以恢復嗅覺了嗎？
+
+### 小結
+
+根據研究結果，團隊得到一個結論：新冠肺炎的病毒造成嗅覺失調的原因，並不是「直接破壞」嗅球中的嗅覺神經，而是透過**入侵嗅覺輔助細胞來「間接影響」我們的嗅覺**，這也是為什麼得新冠肺炎的感染者並不會永久喪失嗅覺，因為神經其實沒有死掉！
+
+一個小小病毒所引起的嗅覺喪失，其實也有很多學問在裡面呢！不過希望大家還是不要經歷這些比較好，呼籲大家還是要把口罩戴緊，平常少出門、勤洗手，保護自己與他人，一起度過這個疫情難關吧！
+
+### 參考資料
+
+1\. How COVID-19 Causes Loss of Smell. [https://hms.harvard.edu/news/how-covid-19-causes-loss-smell](https://hms.harvard.edu/news/how-covid-19-causes-loss-smell "https://hms.harvard.edu/news/how-covid-19-causes-loss-smell").
+
+2\. Brann, D. H. _et al._ Non-neuronal expression of SARS-CoV-2 entry genes in the olfactory system suggests mechanisms underlying COVID-19-associated anosmia. _Sci Adv_ **6**, eabc5801 (2020).
+
+### 備註
+
+ACE2：血管收縮素轉化酶2 (Angiotensin-converting enzyme 2)
+
+TMRSS2：跨膜絲胺酸蛋白酶2 (Transmembrane protease, serine 2)

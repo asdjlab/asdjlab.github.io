@@ -5,13 +5,14 @@ themesDir = "themes"
 languageCode = "zh-tw"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "zh-tw"
+hasCJKLanguage = true
 # Enable comments by entering your Disqus shortname
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
 # number of words of summarized post content (default 70)
-summaryLength = 50
+summaryLength = 70
 
 # Define the number of posts per page
 paginate = 10
@@ -153,7 +154,7 @@ pluralizelisttitles = false
     address = ""
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:year:month/:slug/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
