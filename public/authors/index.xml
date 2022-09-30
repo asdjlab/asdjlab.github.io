@@ -6,20 +6,29 @@
     <description>Recent content in Authors on 混科學實驗室</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://deft-fairy-aa3915.netlify.app/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Oct 2021 21:29:20 +0200</lastBuildDate><atom:link href="https://deft-fairy-aa3915.netlify.app/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>John Doe</title>
-      <link>https://deft-fairy-aa3915.netlify.app/authors/john-doe/</link>
-      <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
+      <title>A小編</title>
+      <link>https://deft-fairy-aa3915.netlify.app/authors/a%E5%B0%8F%E7%B7%A8/</link>
+      <pubDate>Sun, 10 Oct 2021 21:29:20 +0200</pubDate>
       
-      <guid>https://deft-fairy-aa3915.netlify.app/authors/john-doe/</guid>
+      <guid>https://deft-fairy-aa3915.netlify.app/authors/a%E5%B0%8F%E7%B7%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J小編</title>
+      <link>https://deft-fairy-aa3915.netlify.app/authors/j%E5%B0%8F%E7%B7%A8/</link>
+      <pubDate>Sat, 31 Jul 2021 21:29:20 +0200</pubDate>
+      
+      <guid>https://deft-fairy-aa3915.netlify.app/authors/j%E5%B0%8F%E7%B7%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jane Doe</title>
       <link>https://deft-fairy-aa3915.netlify.app/authors/jane-doe/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
       
       <guid>https://deft-fairy-aa3915.netlify.app/authors/jane-doe/</guid>
       <description></description>
