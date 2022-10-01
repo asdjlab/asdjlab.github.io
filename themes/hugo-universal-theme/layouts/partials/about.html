@@ -2,14 +2,17 @@
 
   <div class="row">
 
-      <div class="col-md-12">
-
-          <div>
-            {{ .Content }}
-          </div>
-
+      <div class="col-md-4 col-sm-6 text-center" style="display: flex; align-items: center; justify-content: center;">
+          <img src="{{ .Params.img | relURL }}" class="img-responsive" alt="" width="70%">
       </div>
-
+      <div class="col-md-8 col-sm-6">
+        <div style="text-align: center;">
+          <h2>{{ .Params.slogan }}</h2>
+        </div>
+        <div>
+          {{ .Content }}
+        </div>
+    </div>
   </div>
   <!-- /.row -->
 
@@ -20,6 +23,10 @@
 {{ if gt (len .Site.Data.features) 0 }}
 <section class="bar background-white">
     <div class="container">
+        <div class="heading text-center">
+            <h1>{{ .Site.Params.features.title }}</h1>
+            <br>
+        </div>
         {{ $elements := default 3 .Site.Params.features.cols }}
         {{ $features := sort .Site.Data.features "weight" }}
 
@@ -32,24 +39,18 @@
         {{ range $i, $sequence := seq $total_rows }}
           <div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
             {{ range $j, $sequence2 := (seq $elements) }}
-
                 {{ $feature_index := add (mul $i $elements) $j }}
                 {{ if lt $feature_index (len $features) }}
                     {{ $element := index $features $feature_index }}
-
                     <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
                         <div class="box-simple">
-                            {{ with $element.url }}
-                            <a href="{{ $element.url }}">
-                            {{ end }}
-                                <div class="icon">
-                                    <i class="{{ $element.icon }}"></i>
-                                </div>
-                            {{ with $element.url }}
-                            </a>
-                            {{ end }}
-                            <h3>{{ $element.name | markdownify }}</h3>
-                            <p>{{ $element.description | markdownify }}</p>
+                            <div class="col-md-5 col-lg-4 col-sm-6">
+                              <center><img src="{{ $element.icon | relURL }}" class="img-responsive" alt="" width="70%"></center>
+                            </div>
+                            <div class="col-md-7 col-lg-8 col-sm-6">
+                                <h2>{{ $element.name | markdownify }}</h2>
+                                <p>{{ $element.description | markdownify }}</p>
+                            </div>
                         </div>
                     </div>
                 {{ end }}
@@ -61,6 +62,57 @@
 {{ end }}
 {{ end }}
 {{ end }}
+
+
+
+{{ if isset .Site.Params "members" }}
+{{ if .Site.Params.members.enable }}
+{{ if gt (len .Site.Data.members) 0 }}
+<section class="bar background-white">
+    <div class="container">
+        <div class="heading text-center">
+            <h1>{{ .Site.Params.members.title }}</h1>
+            <br>
+        </div>
+        {{ $elements := default 3 .Site.Params.members.cols }}
+        {{ $members := sort .Site.Data.members "weight" }}
+        {{ $total_rows := div (len $members) $elements }}
+
+        {{ if gt (mod (len $members) $elements) 0 }}
+          {{ $total_rows = add $total_rows 1 }}
+        {{ end }}
+
+        {{ range $i, $sequence := seq $total_rows }}
+          <div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
+            {{ range $j, $sequence2 := (seq $elements) }}
+
+                {{ $member_index := add (mul $i $elements) $j }}
+                {{ if lt $member_index (len $members) }}
+                    {{ $element := index $members $member_index }}
+
+                    <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+                        <div class="box-simple">
+
+                            <div class="col-md-12 col-lg-12 col-sm-6">
+                              <center><img src="{{ $element.icon | relURL }}" class="img-responsive" alt="" width="50%"></center>
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-sm-6">
+                                <h2>{{ $element.name | markdownify }}</h2>
+                                <p>{{ $element.title | markdownify }}</p>
+                                <h4 style="color: orange;">{{ $element.description | markdownify }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+          </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+
 
 
 {{ if isset .Site.Params "clients" }}

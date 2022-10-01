@@ -1,10 +1,10 @@
 +++
 title = "關於我們"
 id = "about"
+img = "img/logo-color.jpeg"
+slogan = "讓我們混在一起吧！"
 +++
 
-## 混科學實驗室
+在這個科技日新月異、資訊日益發達的時代， 課本內的知識拼圖好像永遠缺了最新的一塊。 強硬的記取答案或許能短暫應付一時的考試， 培養求知精神才是資訊爆炸時代的生存之道。
 
-Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
-
-Please feel free to contact us, our customer service center is working for you 24/7.
+「混科學實驗室」 由幾位親身在科學路上闖蕩的大男孩所成立， 希望透過親自動手操作與動腦思考的活動們， 培養大小朋友對不同領域和自主學習的興趣。 現階段我們積極與致力課外教育的夥伴合作， 藉由特別設計、結合生活的跨領域科學課程， 培養學員的科學（Science）、技術（Technology）、工程（Engineering）、藝術（Art）及數學（Mathematics）領域的能力與對未知事物的興趣。

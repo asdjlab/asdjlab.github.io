@@ -52,11 +52,15 @@
                                 {{ end }}
                             </a>
                         </div>
-                        
+                        <br>
 
                         <div id="post-content">
                           {{ .Content }}
                         </div>
+
+                        <div class="col-md-6 col-lg-6 likecoin-embed likecoin-button" data-liker-id="asdjlaboratory" data-href="{{.Permalink}}"></div>
+                        <div class="col-md-6 col-lg-6"></div>
+
                         <!-- /#post-content -->
                         {{ if .Site.DisqusShortname }}
                         <div id="comments">
@@ -98,6 +102,6 @@
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-
+    <script src="https://static.like.co/sdk/v1/button.js"></script>
   </body>
 </html>
