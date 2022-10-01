@@ -4,17 +4,23 @@
         <div class="col-md-12">
 
             <section>
-
-                {{ .Content }}
+                <center>{{ .Content }}</center>
 
                 {{ if isset .Site.Params "formspree_action" }}
+                <div class="container" style="padding-top:10px;">
+                    <div class="text-center" style="display: flex; align-items: center; justify-content: center; width: 100%;">
+                        <iframe loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLScEp0KchLuoHD1ThGNevaSFwSRgRbADAS0VLW59NWDodz_VqA/viewform?embedded=true" width="640" height="900" frameborder="0" marginheight="0">載入中…</iframe>
+                    </div>
+                </div>
 
+                <!--
                 <div class="heading">
                   <h3>{{ i18n "contactForm" }}</h3>
                 </div>
 
                 <div id="contact-message"></div>
-
+                
+                
                 <form {{ with .Site.Params.contact_form_ajax }}class="contact-form-ajax"{{ else }}{{ end }} method="post" action="{{ .Site.Params.formspree_action }}">
                     <div class="row">
                         <div class="col-sm-6">
@@ -47,8 +53,9 @@
 
                         </div>
                     </div>
-                    <!-- /.row -->
+                   
                 </form>
+                --> 
 
                 {{ end }}
 
