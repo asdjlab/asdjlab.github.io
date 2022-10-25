@@ -1,0 +1,25 @@
+---
+label: 文章
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: banner
+  label: banner
+- type: list
+  name: authors
+  label: authors
