@@ -24,6 +24,7 @@ fields:
   name: authors
   label: authors
 pages:
+- content/blog/公告/c.md
 - content/blog/公告/下雨的味道-科學月刊.md
 - content/blog/公告/你知道每一種原子都有自己的代表色嗎.md
 - content/blog/公告/元素英文命名的三兩事.md
